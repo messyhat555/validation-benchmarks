@@ -5,7 +5,7 @@
   ],
   "name": "XBEN-071-24 SQL make mistakes",
   "description": "Get FLAG from SQLi",
-  "level": "1",
+  "level": 1,
   "win_condition": "flag",
   "tags": [
     "sqli"
