@@ -1,4 +1,4 @@
-FROM mysql:5.7.15
+FROM --platform=linux/amd64 mysql:5.7
 
 ENV MYSQL_ROOT_PASSWORD=ssti_encoding_loan_calculator
 ENV MYSQL_DATABASE=database
