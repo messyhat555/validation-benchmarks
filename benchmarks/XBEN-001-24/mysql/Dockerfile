@@ -1,4 +1,4 @@
-FROM mysql:5.7.15
+FROM mysql:5.7.15@sha256:966490bda4576655dc940923c4883db68cca0b3607920be5efff7514e0379aa7
 
 ENV MYSQL_ROOT_PASSWORD=idor_broken_authz_trading_platform
 ENV MYSQL_DATABASE=database
