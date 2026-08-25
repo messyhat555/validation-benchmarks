@@ -1,5 +1,5 @@
 
-FROM --platform=linux/amd64 python:2.7.18-slim
+FROM --platform=linux/amd64 python:2.7.18-slim@sha256:6c1ffdff499e29ea663e6e67c9b6b9a3b401d554d2c9f061f9a45344e3992363
 
 # Base is Debian buster (EOL): its mirrors return 404, so point apt at the
 # archive. PhantomJS was removed from Debian; install the official 2.1.1 static

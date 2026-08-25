@@ -1,5 +1,5 @@
 
-FROM --platform=linux/amd64 python:3.11-slim
+FROM --platform=linux/amd64 python:3.11-slim@sha256:be1575ed968de893bd54f4c56315ff7c4736ce522c1bca08fd521731aafc0d76
 
 # PhantomJS was removed from Debian; install the official 2.1.1 static binary
 # (vendored, x86_64) plus its runtime libraries instead of `apt-get install phantomjs`.
